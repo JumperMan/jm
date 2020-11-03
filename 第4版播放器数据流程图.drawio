@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T09:04:26.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="SDyvl9oUrsIgqOEEDGg8" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T09:05:44.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="DXB50LLarqXe6OvsRTHA" version="13.8.8" type="github">
   <diagram id="TInFRDa1966IDE_oLq5r" name="Page-1">
-    <mxGraphModel dx="671" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="671" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,30 +8,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3s3UNYBAsLfA4cehuooJ-1" value="rtsp-loader" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="355" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-1" target="1olahJo4whyGailEglOh-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-1" value="rtsp-paser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1olahJo4whyGailEglOh-13" value="websocket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-2" target="1olahJo4whyGailEglOh-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1olahJo4whyGailEglOh-13" value="websocket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-21" value="ES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-2" target="3s3UNYBAsLfA4cehuooJ-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="415" y="140" />
-              <mxPoint x="415" y="140" />
+              <mxPoint x="425" y="210" />
+              <mxPoint x="425" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-2" value="websocket-worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="60" width="110" height="60" as="geometry" />
+          <mxGeometry x="370" y="130" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1olahJo4whyGailEglOh-40" value="rtsp data(eg:ES)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-3" target="1olahJo4whyGailEglOh-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1olahJo4whyGailEglOh-40" value="rtsp data(eg:ES)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="1olahJo4whyGailEglOh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="160" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-3" value="stream media" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="60" width="120" height="60" as="geometry" />
@@ -43,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-4" value="is H264?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="300" width="80" height="80" as="geometry" />
+          <mxGeometry x="385" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-5" target="1olahJo4whyGailEglOh-7">
           <mxGeometry relative="1" as="geometry" />
@@ -52,36 +56,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-5" value="H265 player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-36" value="fmp4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1olahJo4whyGailEglOh-6" target="1olahJo4whyGailEglOh-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-6" value="H264 player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-31" value="render" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-7" target="1olahJo4whyGailEglOh-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-7" value="webgl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-8" value="HTML canvas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-9" value="HTML video tab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-34" value="YUV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1olahJo4whyGailEglOh-32" target="1olahJo4whyGailEglOh-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="150" y="220" />
-              <mxPoint x="150" y="340" />
+              <mxPoint x="160" y="290" />
+              <mxPoint x="160" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1olahJo4whyGailEglOh-32" value="ffmpeg-worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
